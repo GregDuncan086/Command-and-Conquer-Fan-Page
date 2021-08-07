@@ -239,8 +239,7 @@ I have used the following websites to gather ideas, information and images for t
 
 - [Command & Conquer Wikipedia](https://en.wikipedia.org/wiki/Command_%26_Conquer)
 - [Steam](https://store.steampowered.com/app/1213210/Command__Conquer_Remastered_Collection/)
-- [WoWorms](https://wowroms.com/en/isos/playstation/command-and-conquer-clone/31423.html)
-- [Moddb](https://www.moddb.com/mods/command-conquer-0-dawn-of-time/images/command-conquer-0-dawn-of-time-logo)
+- [Variety](https://variety.com/2018/gaming/features/command-conquer-rivals-hands-on-1202838936/)
 
 ### Acknowledgements
 
