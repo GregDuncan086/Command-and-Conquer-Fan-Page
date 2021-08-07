@@ -1,104 +1,257 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# **Command & Conquer Fan Page**
 
-Welcome USER_NAME,
+## **Project Goal**
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+Welcome to Command & Conquer Fan Page. This is a page for fans of Westwood Studios' popular 90's PC game series called Command & Conquer. On this site you will find information about the games history including a timeline of each game release date for each game.
 
-## Gitpod Reminders
+An intuitive user experience is key here so that visitors can easily find all the information that they need.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Thank you for visiting my project!
 
-`python3 -m http.server`
+## Table of Contents
+- [UX](#ux)
+    - [User Goals](#user-goals)
+    - [User Stories](#user-stories)
+    - [Site Owners Goals](#site-owners-goals)
+    - [User Requirements and Expectations](#user-requirements-and-expectations)
+        - [Requirements](#requirements)
+        - [Expectations](#expectations)
+    - [Design Choices](#design-choices)
+        - [Fonts](#fonts)
+        - [Icons](#icons)
+        - [Colours](#colours)
+        - [Structure](#structure)
+- [Wireframes](#wireframes)
+- [Features](#features)
+    - [Exsisting Features](#exsisting-features)
+    - [Features to be Implemented](#features-to-be-implemented)
+- [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Tools and Libraries](#libraries)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
-A blue button should appear to click: _Make Public_,
+## **UX**
 
-Another blue button should appear to click: _Open Browser_.
+### **User Goals**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- A website filled with valuable content.
+- Website should be easy to use on desktop, tablet and mobile.
+- Appealing visual elements.
+- Be able to easily see a history of game release.
+- Contact form to submit details of availablity for online gaming.
 
-A blue button should appear to click: _Make Public_,
+### **User Stories**
 
-Another blue button should appear to click: _Open Browser_.
+- As a user, I want to be able to easily navigate the site.
+- As a user, I want to be able to see a history of the game.
+- As a user, I want to see various in game images.
+- As a user, it is important that the site is easy and simple to use.
+- As a user, I want to be abloe to easily find the contact form.
+- As a user, I want to be able to see links to social media that open in seperate tabs.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### **Site Owners Goals**
 
-To log into the Heroku toolbelt CLI:
+- Attract new players to the game.
+- Give new and exsisting fans as much information about the game history as possible.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### **User Requirements and Expectations**
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+#### Requirements
 
-------
+- Easy to navigate by using the navigation menu
+- Relevant content about the game.
+- Appelaing visual elements.
+- Easy way to contact the page.
 
-## Release History
+#### Expectations
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- When clicking on links (like social media links), I expect the page to open in a seperate tab.
+- I expect feedback when submitting the contat form that the form has been submitted correctly.
+- I expect that the navigation links work properly so that it takes me to wherever I want to go.
+- Clear information about the game.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### **Design Choices**
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+#### Fonts
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+In order to find the appropriate fonts for the webiste, I have visited [Google Fonts](https://fonts.google.com/) to explore the various options. For the overall content I have decided to use [Lato](https://fonts.google.com/specimen/Lato) font. In my opinion this font is easy to read and visually appealing. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+For the headings in the website I have decdied to use [Roboto](https://fonts.google.com/specimen/Roboto) in order to make the headings stand out from the main content.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+#### Icons
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+I have decided to implement icons, using the [Font Awesome](https://fontawesome.com/) library. The icons that I chose are for the social media links and are self explanatory. The navigation menu will transform into a hamburger icon on a mobile device to make it more simple to use.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Colours
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+I have based my colour scheme for the site on the various colour schemes used in the Command and Conquer universe. I have used the site [Coolor](https://coolors.co/) to decide on my colour palette foe the site. You can view my colour scheme [here](wireframes/colour-palette.png). I will explain in more detail below why I chose the the various colours and what I will be using them for in the website.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+![Colour Scheme](wireframes/colour-paletee.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- #0710136: This colour will be used as the background for the site. It is a black colour that is the background for most things in Command & Conquer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- #446df6: This colour will be used for the timeline. It is the colour of the Allies faction in Command & Conquer Red Alert.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- #b40439: This colour will be used for the main text in the site. This is the colour of the Soviet faction in Command & Conquer Red Alert.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- #f5cb5c: This colour will be used for all the headings in the site. This is the colour of the GDI faction in the original Command & Conquer.
 
-------
+- #5b8e7d: This colour will be used for the social media icon link in the footer. This is the colour of the grassy terrain in the game.
 
-## FAQ about the uptime script
+I have chosen all of these colours to try and keep in theme with the main colour schemes in Command & Conquer.
 
-**Why have you added this script?**
+#### Structure
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+I have chosen to use [Bootstrap](https://getbootstrap.com/) to create the overall structure for my website. Bootstrap provides various elements of CSS and Javascript which is helpful to keep a good strucutre on your page. As Bootstrap is designed for mobile first, I will be certain that my website functions well on a mobile device.
 
-**How will this affect me?**
+## **Wireframes**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+I have decided to use [Balsamiq](https://balsamiq.com/wireframes/) to create the wireframes for my website. I created wireframes for desktop, tablet and mobile devices. For my website I have decdied to do a one page website with three scrollable sections. Thye webiste will be easy to navigate using the navigation menu or by scrollig up and down the page.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+You can find my wireframes for each decive below:
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### [Desktop Wireframe](wireframes/desktop-wireframe.png)
+### [Tablet Wireframe](wireframes/tablet-wireframe.png)
+### [Mobile Wireframe](wireframes/mobile-wireframe.png)
 
-**So….?**
+## **Features**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### **Exsiting Features**
 
-**Can I opt out?**
+#### Navigation
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+For the navbar I have used Bootstrap to create a responsive navbar. I have implemented the hamburger icon for mobile devices to be more user-friendly.
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+#### Hero Image
 
-**Anything more?**
+I have decided to implement a hero image which spreads across 100% of the screen. In order to make the user curious as to what follows next and also to grab the users attention as soon as they visit the site.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+#### Welcome Section
 
----
+I have used the Bootstrap grid system here to create 3 columns on desktop view, which turn into full width on mobile devices.
 
-Happy coding!
+#### Timeline Section
+
+I have used code from [w3schools](https://www.w3schools.com/howto/howto_css_timeline.asp) to form the base timeline and then altered the code to suit my need for this website.
+
+#### Gallery
+
+For the gallery section I have created a class which contains all the settings for psotioning of the images. The images will be displayed in a 3 x 3 grid on desktop and two columns of four images on mobile devices.
+
+#### Contact
+
+At the contact section I have provided a form to be filled out to raise any mistakes or inaccurate information contained in the website. The form consists of a first and second name input field, an email input field and a small text input field. Below this input fields there is a submit button. The form will also trigger a modal box to confirm sucessful submission of the form.
+
+### **Features to be Implemeneted**
+
+- Interavtive forum where players can share their eperiences of Command & Conquer games, as well as being able to arrange multiplayer games if they choose.
+- A form that allows uers to sign up for a newsletter for any online events that the site may hold in the future.
+- An clickable link otion that will take you to the sotre pages of Steam and Origin if the user wishes to quickly buy any of the Command & Conquer games.
+
+## **Technologies Used**
+
+### **Languages**
+
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+
+### **Libraries & Frameworks**
+
+- [Font Awesome](https://fontawesome.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Google Fonts](https://fonts.google.com/)
+
+### **Tools**
+
+- [Gitpod](https://www.gitpod.io/)
+- [Github](https://github.com/)
+- [Balsamiq](https://balsamiq.com/wireframes/)
+- [W3C HTML Validation Servis#ce](https://validator.w3.org/)
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
+- [JPG to PNG](https://jpg2png.com/)
+
+## **Testing**
+
+### Navigation Bar
+
+- **Plan**
+
+The navigation bar will remain fixed at the top of the page nd will not scroll with the page.
+To be more attractive and easy top use on mobile devices, I want the navigation bar to conert into a hamburger sign with a dropdwon menu.
+
+- **Implementation**
+
+- **Test**
+
+- **Result**
+
+- **Verdict**
+
+### Modals
+
+- **Plan**
+
+I want to implement a modal that opens up when the submit button is clicked to confirm that the form has been filled out correctly.
+
+- **Implementation**
+
+- **Test**
+
+- **Result**
+
+- **Verdict**
+
+### Contact Form
+
+- **Plan**
+
+I want to include a contact form, for feedback on the website and to highlight any mistakes on the website that need to be fixed in relation to information about the game.
+
+- **Implementaiton**
+
+In order to implment this I have created a form in my index.html file with three input fields, one textarea field and a submit button. As it is a small and simple form I have decided to not label the form with labels, but placeholders instead.
+
+- **Test**
+
+- **Result**
+
+- **Verdict**
+
+### Bugs
+
+#### Form Validation
+
+- **Bugs**
+
+- **Fix**
+
+- **Verdict**
+
+## **Depoloyment**
+
+## **Credits**
+
+### Content - Media - Inspiration
+
+I have used the following websites to gather ideas, information and images for the overall content of my website:
+
+- [Command & Conquer Wikipedia](https://en.wikipedia.org/wiki/Command_%26_Conquer)
+- [Steam](https://store.steampowered.com/app/1213210/Command__Conquer_Remastered_Collection/)
+- [WoWorms](https://wowroms.com/en/isos/playstation/command-and-conquer-clone/31423.html)
+- [Moddb](https://www.moddb.com/mods/command-conquer-0-dawn-of-time/images/command-conquer-0-dawn-of-time-logo)
+
+### Acknowledgements
+
+First of all, I would like to thank my mentor Simen ([Eventyret_mentor](https://github.com/Eventyret)) for helping guide me thorugh this project. He gave me the idea to do this page for this project as well as putting me at ease with any apprehensions that I had about doing this project. The tools and information that he has shared with me have really helped me in completing this project.
+
+I also want to say a special thanks to [Sharon Luff](https://www.linkedin.com/in/sharon-luff-1a24b2175/) of [The Learning People](https://www.learningpeople.com/uk/) for helping me through some difficulty times lead up ot this project and for beliving that I could complete this.
+
+I would also like to thank my parnter Emma for beliving in me and giving me honest feedback on the website.
+
+I want to thak the Slack community as well. Whenever I had any problems with the building of this website, I did some research on Slack and always found someone who has had the same issue as i did and there was usually a solution to the problem. This really helped me with this project.
+
+As one of of my main passions is gaming I was able to put myself in the shoes of a potential visitor to the site and a player of the Command & Conquer series.
+
+[Back to Top](#table-of-contents)
