@@ -16,7 +16,7 @@ body {
     background: #071013;
 }
 
-h1 {
+h1, h5 {
     text-transform: uppercase;
     text-align: center;
     font-family: 'Roboto', 'sans-serif';
@@ -28,4 +28,107 @@ p {
     font-family: 'Lato', 'sans-serif';
     color: #b40439;
     font-size: 20px;
+}
+
+/*---- Timeline ----*/
+
+* {
+    box-sizing: border-box;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #446df6;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #446df6;
+    border: 4px solid #5b8e7d;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid grey;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #446df6;
+}
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid #446df6;
+    border-width: 10px 10px 10px 0; 
+    border-color: transparent grey transparent transparent;
+}
+
+.right::after {
+    left: -16px;
+}
+
+.content {
+    padding: 20px 30px;
+    background-color: #446df6;
+    position: relative;
+    border-radius: 6px;
+}
+
+.container::before {
+    left: 60px;
+    border: medium solid #446df6;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent #446df6 transparent transparent;
+}
+
+.left:after .right:after {
+    left: 15px;
+}
+
+.right {
+    left: 0%;
 }
