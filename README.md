@@ -130,7 +130,7 @@ I have decided to implement a hero image which spreads across 100% of the screen
 
 #### Welcome Section
 
-I have used the Bootstrap grid system here to create 3 columns on desktop view, which turn into full width on mobile devices.
+I have used standard HTML and CSS to lay out the Welcome section.
 
 #### Timeline Section
 

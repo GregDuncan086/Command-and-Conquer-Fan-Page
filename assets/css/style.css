@@ -11,3 +11,21 @@
     text-transform: uppercase;
     font-family: 'Roboto', 'sans-serif';
 }
+
+body {
+    background: #071013;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto', 'sans-serif';
+    color: #f5cb5c;
+}
+
+p {
+    text-align: center;
+    font-family: 'Lato', 'sans-serif';
+    color: #b40439;
+    font-size: 20px;
+}
