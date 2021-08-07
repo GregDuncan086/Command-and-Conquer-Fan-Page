@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
 
+/*---- Header ----*/
+
 #hero-image {
     height: 600px;
     width: 100%;
@@ -11,6 +13,10 @@
     text-transform: uppercase;
     font-family: 'Roboto', 'sans-serif';
 }
+
+/*---- header ----*/
+
+/*---- Body ----*/
 
 body {
     background: #071013;
@@ -30,6 +36,8 @@ p {
     font-size: 20px;
 }
 
+/* ---- body ---- */
+
 /*---- Timeline ----*/
 
 * {
@@ -38,19 +46,7 @@ p {
 
 .timeline {
     position: relative;
-    max-width: 1200px;
     margin: 0 auto;
-}
-
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: #446df6;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
 }
 
 .container {
@@ -58,19 +54,6 @@ p {
     position: relative;
     background-color: inherit;
     width: 50%;
-}
-
-.container::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: #446df6;
-    border: 4px solid #5b8e7d;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
 }
 
 .left {
@@ -133,6 +116,8 @@ p {
     left: 0%;
 }
 
+/*---- timeline ---- */
+
 /*---- Gallery ----*/
 
 #photo {
@@ -146,4 +131,43 @@ p {
     width: 100%;
 }
 
+/*---- gallery ---- */
+
 /*---- Form ----*/
+
+#form {
+    text-align: center;
+}
+
+/*---- form ----*/
+
+/*---- Footer ----*/
+
+footer {
+    min-height: 120px;
+    margin: 0;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #5b8e7d;
+}
+
+#footer-header {
+    text-align: left;
+    font-size: 15px;
+    padding: 5px;
+}
+
+/*---- footer ----*/
