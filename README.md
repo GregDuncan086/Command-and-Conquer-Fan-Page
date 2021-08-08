@@ -186,7 +186,7 @@ I used Bootstrap to design the navigation bar.
 
 - **Test**
 
-I cliekd the Welcome link in the navigation bar.
+I clicked the Welcome link in the navigation bar and it redirected me to the page.
 
 - **Result**
 
