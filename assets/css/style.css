@@ -125,3 +125,35 @@ footer {
 }
 
 /*---- footer ----*/
+
+/*---- Media Quieries ----*/
+
+@media (min-width: 1200px) {
+    .box-xl {
+        background-color: #ff6c00;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .box-lg {
+        background-color: #ff6c00;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    .box-md {
+        background-color: #ff6c00;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 576px) {
+    .box-sm {
+        background-color: #ff6c00;
+        opacity: 1;
+    }
+}
+
+/*---- media quieries ----*/

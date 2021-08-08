@@ -122,7 +122,7 @@ You can find my wireframes for each decive below:
 
 #### Navigation
 
-For the navbar I have used Bootstrap to create a responsive navbar. I have implemented the hamburger icon for mobile devices to be more user-friendly.
+For the navbar I have used Bootstrap to create a responsive navbar.
 
 #### Hero Image
 
@@ -179,57 +179,40 @@ At the contact section I have provided a form to be filled out to raise any mist
 - **Plan**
 
 The navigation bar will remain fixed at the top of the page nd will not scroll with the page.
-To be more attractive and easy top use on mobile devices, I want the navigation bar to conert into a hamburger sign with a dropdwon menu.
 
 - **Implementation**
 
-- **Test**
-
-- **Result**
-
-- **Verdict**
-
-### Modals
-
-- **Plan**
-
-I want to implement a modal that opens up when the submit button is clicked to confirm that the form has been filled out correctly.
-
-- **Implementation**
+I used Bootstrap to design the navigation bar.
 
 - **Test**
 
-- **Result**
-
-- **Verdict**
-
-### Contact Form
-
-- **Plan**
-
-I want to include a contact form, for feedback on the website and to highlight any mistakes on the website that need to be fixed in relation to information about the game.
-
-- **Implementaiton**
-
-In order to implment this I have created a form in my index.html file with three input fields, one textarea field and a submit button. As it is a small and simple form I have decided to not label the form with labels, but placeholders instead.
-
-- **Test**
+I cliekd the Welcome link in the navigation bar.
 
 - **Result**
 
-- **Verdict**
-
-### Bugs
-
-#### Form Validation
-
-- **Bugs**
-
-- **Fix**
+Clicking the Welcome link on the navigation bar brings you bakc to the top of the main page.
 
 - **Verdict**
+
+This works as intended.
 
 ## **Depoloyment**
+
+This project was deployed via GitHub by executing the following steps. After writing the code, commiting and pushing it to GitHub:
+
+1. Navigate to the repository on github and click **Settings**.
+2. From there, go to the **Source** section within the **GitHub Pages** section.
+3. Select **Main Branch** on the dropdown menu, and click save.
+4. Now the website is live on **https://gregduncan086.github.io/Command-and-Conquer-Fan-Page/**.
+5. Anytime commits and pushes are sent to GitHub, the GitHub Pages site should update shortly after.
+
+To run the project locally:
+
+1. Click the green **Clone** or **Download** button on the GitHub Repositiry.
+2. Using the **Clone with HTTPS option**, copy the link displayed.
+3. Open your IDE, and ensure the Git Terminal is open.
+4. Change the working directory to the location where the cloned directory is to go.
+5. Use the *git clone** command and paste the url copied in the second step.
 
 ## **Credits**
 
