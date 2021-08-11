@@ -1,6 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto&display=swap');
 
-/*---- Header ----*/
+/* Body */
+
+body {
+    background: #071013;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+h1, h5 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #f5cb5c;
+}
+
+p {
+    text-align: center;
+    font-family: 'Lato', 'sans-serif';
+    color: #b40439;
+    font-size: 20px;
+}
+
+/*  body */
+
+/* Header */
 
 #hero-image {
     height: 600px;
@@ -14,31 +36,9 @@
     font-family: 'Roboto', 'sans-serif';
 }
 
-/*---- header ----*/
+/* header */
 
-/*---- Body ----*/
-
-body {
-    background: #071013;
-}
-
-h1, h5 {
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Roboto', 'sans-serif';
-    color: #f5cb5c;
-}
-
-p {
-    text-align: center;
-    font-family: 'Lato', 'sans-serif';
-    color: #b40439;
-    font-size: 20px;
-}
-
-/* ---- body ---- */
-
-/*---- Timeline ----*/
+/* Timeline */
 
 * {
     box-sizing: border-box;
@@ -70,32 +70,32 @@ p {
     left: 0%;
 }
 
-/*---- timeline ---- */
+/* timeline  */
 
-/*---- Gallery ----*/
+/* Gallery */
 
 #photo {
     clear: both;
     line-height: 0;
     column-count: 3;
-    column-gap: 0px;
+    column-gap: 0;
 }
 
 #photo img {
     width: 100%;
 }
 
-/*---- gallery ---- */
+/* gallery  */
 
-/*---- Form ----*/
+/* Form */
 
 #form {
     text-align: center;
 }
 
-/*---- form ----*/
+/* form */
 
-/*---- Footer ----*/
+/* Footer */
 
 footer {
     min-height: 120px;
@@ -124,36 +124,37 @@ footer {
     padding: 5px;
 }
 
-/*---- footer ----*/
+/* footer */
 
-/*---- Media Quieries ----*/
+/* Media quieries */
 
-@media (min-width: 1200px) {
-    .box-xl {
-        background-color: #ff6c00;
-        opacity: 1;
-    }
-}
 
-@media (min-width: 992px) {
-    .box-lg {
-        background-color: #ff6c00;
-        opacity: 1;
-    }
-}
-
-@media (min-width: 768px) {
-    .box-md {
-        background-color: #ff6c00;
-        opacity: 1;
-    }
-}
-
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
     .box-sm {
         background-color: #ff6c00;
         opacity: 1;
     }
 }
 
-/*---- media quieries ----*/
+@media screen and (min-width: 768px) {
+    .box-md {
+        background-color: #ff6c00;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .box-lg {
+        background-color: #ff6c00;
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .box-xl {
+        background-color: #ff6c00;
+        opacity: 1;
+    }
+}
+
+/* media quieries */

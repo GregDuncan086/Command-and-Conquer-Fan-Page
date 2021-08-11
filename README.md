@@ -88,7 +88,7 @@ I have decided to implement icons, using the [Font Awesome](https://fontawesome.
 
 I have based my colour scheme for the site on the various colour schemes used in the Command and Conquer universe. I have used the site [Coolor](https://coolors.co/) to decide on my colour palette foe the site. You can view my colour scheme [here](wireframes/colour-palette.png). I will explain in more detail below why I chose the the various colours and what I will be using them for in the website.
 
-![Colour Scheme](wireframes/colour-paletee.png)
+![Colour Scheme](wireframes/colour-palette.png)
 
 - #0710136: This colour will be used as the background for the site. It is a black colour that is the background for most things in Command & Conquer.
 
@@ -174,7 +174,7 @@ At the contact section I have provided a form to be filled out to raise any mist
 
 ## **Testing**
 
-### Navigation Bar
+### As a user, I want to easily navigate the website
 
 - **Plan**
 
